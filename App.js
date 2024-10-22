@@ -5,7 +5,7 @@ import cities from './data';
 
 function App() {
     //  Create a state variable for location
-  //const [location, setLocation] = useState(''); 
+  const [location, setLocation] = useState('London'); 
   return (
     <>
       <h1 className="title">REACTIVE WEATHER</h1>
@@ -22,7 +22,7 @@ function App() {
         ))}
       </div>
 
-      
+      <Location data={cities} location={location} setLocation={setLocation} />
     </>
   );
 }
