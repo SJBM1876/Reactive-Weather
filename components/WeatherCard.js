@@ -3,12 +3,14 @@ import Sunny from "../assets/Sunny.svg";
 import Rainy from "../assets/Rainy.svg";
 import Cloudy from "../assets/Cloudy.svg";
 import PartlyCloudy from "../assets/PartlyCloudy.svg";
+import Snowy from "../assets/snowy.webp"
 
 const forecastImages = {
   Sunny: Sunny,
   Cloudy: Cloudy,
   Rainy: Rainy,
-  'Partly cloudy': PartlyCloudy
+  'Partly cloudy': PartlyCloudy,
+  Snowy: Snowy
 };
 
 

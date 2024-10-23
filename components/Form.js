@@ -1,5 +1,6 @@
 import React, { useState } from 'react'; // Import useState
 
+
 const Form = ({ location, setLocation, typedLocation, setTypedLocation }) => {
   const handleSubmit = (event) => {
     event.preventDefault(); // Prevent default form submission
