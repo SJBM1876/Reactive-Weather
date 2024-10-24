@@ -4,6 +4,7 @@ import Location from './components/Location';
 import Form from './components/Form'; // Import the new Form component
 import cities from './data';
 
+
 function App() {
   const [location, setLocation] = useState('New York'); // Initial location
   const [typedLocation, setTypedLocation] = useState(''); // New state for user input

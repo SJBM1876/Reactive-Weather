@@ -3,7 +3,7 @@ import Sunny from "../assets/Sunny.svg";
 import Rainy from "../assets/Rainy.svg";
 import Cloudy from "../assets/Cloudy.svg";
 import PartlyCloudy from "../assets/PartlyCloudy.svg";
-import Snowy from "../assets/snowy.webp"
+import Snowy from "../assets/snowy.webp";
 
 const forecastImages = {
   Sunny: Sunny,
@@ -13,13 +13,11 @@ const forecastImages = {
   Snowy: Snowy
 };
 
-
-
 function WeatherCard({ city, temperature, forecast }) {
   return (
     <div className="card">
       <div className="img-container">
-        <img className="card-img-top" src={forecastImages[forecast]} alt="Card image cap" id="icon" />
+        <img className="card-img-top" src={forecastImages[forecast]} alt="" id="icon" />
       </div>
       <div className="card-body">
         <h3 className="card-title">{city}</h3>
